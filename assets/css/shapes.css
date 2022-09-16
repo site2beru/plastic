@@ -1,0 +1,29 @@
+.d16 {
+    margin: 20px 0;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 100px;
+    background: #008000;
+    position: relative;
+}
+
+.d16:before,
+.d16:after {
+    content: "";
+    width: 0px;
+    height: 0;
+    position: absolute;
+    left: 0px;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+}
+
+.d16:before {
+    top: -24px;
+    border-bottom: 25px solid #008000;
+}
+
+.d16:after {
+    bottom: -24px;
+    border-top: 25px solid #008000;
+}

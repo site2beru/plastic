@@ -1,0 +1,130 @@
+@media (min-width: 768px) and (max-width: 990px) {
+    .header {
+        padding: 0;
+    }
+
+    .topnav {
+    background-color: green;
+    padding: 10px 0;
+}
+
+    .topnav__list a {
+        border-left: 1px solid #398e39;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 600;
+        display: block;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+    }
+
+    .header__logo-mb {
+        margin-left: 30px;
+        background: none;
+        border: none;
+    }
+
+    .hamburger {
+        background-color: #fff;
+        display: block;
+        height: 2px;
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        margin-top: -2px;
+    }
+
+    .hamburger:before {
+        background-color: #fff;
+        content: "";
+        display: block;
+        height: 2px;
+        margin-bottom: 6px;
+        width: 40px;
+        position: absolute;
+        top: -10px;
+    }
+
+    .hamburger:after {
+        background-color: #fff;
+        content: "";
+        display: block;
+        height: 2px;
+        margin-bottom: 6px;
+        width: 40px;
+        position: absolute;
+        top: 10px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+    .header {
+        padding: 0;
+    }
+
+    .topnav {
+        background-color: green;
+        padding: 10px 0;
+    }
+    
+    .topnav__list a {
+        border-left: 1px solid #398e39;
+        color: #fff;
+        font-size: 1em;
+        font-weight: 600;
+        display: block;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+    }
+
+    .header__logo-mb {
+        background: none;
+        border: none;
+    }
+
+    .hamburger {
+        background-color: #fff;
+        display: block;
+        height: 2px;
+        width: 40px;
+        position: absolute;
+        top: 22px;
+        margin-top: -2px;
+    }
+
+    .hamburger:before {
+        background-color: #fff;
+        content: "";
+        display: block;
+        height: 2px;
+        margin-bottom: 6px;
+        width: 40px;
+        position: absolute;
+        top: -10px;
+    }
+
+    .hamburger:after {
+        background-color: #fff;
+        content: "";
+        display: block;
+        height: 2px;
+        margin-bottom: 6px;
+        width: 40px;
+        position: absolute;
+        top: 10px;
+    }
+}
