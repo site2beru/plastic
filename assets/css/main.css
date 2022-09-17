@@ -54,8 +54,8 @@ img {
 article img {
     /* border: 5px solid #0a560a; */
     max-width: 100%;
-    margin: 15px;
-    transform: all .5s ease;
+   /* margin: 15px;
+    transform: all .5s ease; */
 }
 
 article img:hover {
