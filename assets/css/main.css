@@ -372,6 +372,7 @@ footer span {
 .inner__wrap {
     display: flex;
     justify-content: center;
+    max-width^100%;
 }
 
 .leftmenu {
@@ -381,6 +382,11 @@ footer span {
     list-style: none;
     margin-top: 50px;
     padding: 0;
+}
+
+.inner__content {
+   padding: 0:
+   margin: 0;
 }
 
 .leftmenu::before {
